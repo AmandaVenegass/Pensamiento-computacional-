@@ -145,11 +145,152 @@ Hay diferencia entre open source y Software Libre
 #### Software Libre
 "Libertad" El usuario debe tener el control de su informática.
 
+
 ---
 ---
+
+🌸 Clase 20-03-2026  Markdown 🌸
+
+- GitHub es una plataforma basada en la nube donde puedes almacenar, compartir y trabajar junto con otros usuarios para escribir código
+
+Titulos
+
+# Titulo Grande h1
+## Subtitulo h2
+### Pequeño
+###### Mas pequeño  h6
+
+---
+## Tipos de texto
+
+**Negrita**
+
+*Cursiva*
+
+~~Tachado~~
+
+---
+## Listas 
+
+Con puntitos
+
+- Agua
+- Pan
+- Harina
+   * azucar
+   * canela
+
+Numeradas 
+
+  1. Primero
+  2. Segundo
+  3. Tercero
+     1. Firts
+
+---
+## Linea separadora 
+
 ---
 
+## Links 
+
+[google](https://www.google.com/?hl=es)
+
+## Imagenes
+
+![gatos](link de la imagen)
+
+## Bloques 
+
+> habia una vez ........
+> 
+>> pero paso......
+
+## Emojis
+
+:rocket -> no me funciono pero tmb se puede pegar directamente 
+
+---
+---
+
+#Encargo 
 
 
 
+---
+---
+
+# 🌸 Clase 27-03-2026  Introducción al pj5 🌸
+
+  #### ¿Que es un algoritmo? 
+
+Es una secuencia instrucciones paso a paso, lógicas, definidas, ordenadas y finitas que
+permiten solucionar un problema o realizar una tarea específica.
+
+Debe ser preciso, ordenado, tiene que terminar en algun momento, debes obtener siempre el mismo resultado.
+
+INPUT:  Entrada  --->  PROCESO: Algoritmo ---> Output : Salida resultado final 
+
+### ¿Que es un diagrama de flujo?
+
+Representación gráfica de un algoritmo o de lospasos de un proceso. En programación, se utiliza como una herramienta de planificación para visualizar la lógica de un programa antes de escribir una sola línea de código.
+
+### Lenguajes de programación 
+
+Existen entre 700 y 900 lenguajes de programación que se utilizan en la industria ( me acuerda a la programacion que son solo moo jjajaj) 
+
+Algunos más populares 
+
+- Python, Java, C++ , C# , JavaScript, TypesScript etc...
+
+
+### P5.JS
+
+Utiliza principalmente el lenguaje de JavaScript, es un vocabulario especializdo para dibujar,animar y crear cosas visuales de forma más sencilla
+
+Hay funciones maestras
+- Setup: Se ejecuta una sola vez para crear el lienzo, configura el entorno inicial.  
+
+- Draw: se ejecuta en un bucle infinito lo que te permite crear animaciones, crea movimiento y responde a la interacion en tiempo real
   
+---
+
+createCanvas : el tamaño del lienzo (W,H)
+
+background: designa el color del lienzo en RGB los primeros 3 rojo verde azul, y cuarto le puedes dar transparencia - [htmlcolorcode](https://htmlcolorcodes.com/) 
+
+Figuras geometricas 
+
+<img width="585" height="178" alt="image" src="https://github.com/user-attachments/assets/c9f778f4-99cc-4608-85b4-04806c5855e2" />
+
+Tamaño del borde 
+
+strokeweight(); : ancho
+
+noStroke(); para que no tenga borde 
+
+Fill(); 
+
+establece el color del relleno de las figuras (RGB)
+
+Arc(); primero se activa el angleMode(DEGREES) en la parte de funcione 
+arc(x,y,w,h,start,stop);
+
+<img width="209" height="142" alt="image" src="https://github.com/user-attachments/assets/ae617cd1-e156-4886-a79f-83a7cd9809e0" />
+
+----
+
+[Desafio 1](https://editor.p5js.org/amanda.venegas1/sketches/3sZlCZAKz)
+
+[Desafio2]( https://editor.p5js.org/amanda.venegas1/sketches/9wSdfU8Yw)
+
+---
+
+
+
+
+
+
+
+
+
