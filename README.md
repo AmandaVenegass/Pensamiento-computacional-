@@ -149,7 +149,7 @@ Hay diferencia entre open source y Software Libre
 ---
 ---
 
-#🌸 Clase 20-03-2026  Markdown 🌸
+# 🌸 Clase 20-03-2026  Markdown 🌸
 
 - GitHub es una plataforma basada en la nube donde puedes almacenar, compartir y trabajar junto con otros usuarios para escribir código
 
