@@ -285,9 +285,34 @@ arc(x,y,w,h,start,stop);
 [Desafio2]( https://editor.p5js.org/amanda.venegas1/sketches/9wSdfU8Yw)
 
 ---
-# ENTREGA 
+# ENTREGA 09/04/2026 
+
+Deben inspirarse en alguna pintura de algún artist@ geométric@ o geométric@ abstract@ y hacer un dibujo
+en papel milimetrado, usando solamente figuras primitivas 2D; puntos, lineas rectas, cuadrados,
+rectángulos, círculos, elipses, triángulos y arcos (medialuna). Usar todas las figuras mencionas.
+
+Mi primera idea de composicion era esta : 
+
 ![entrega](https://github.com/user-attachments/assets/e827c599-51dd-4659-a2a0-6ec9a76eb53c)
 
+Este es terminado : 
+<img width="554" height="516" alt="image" src="https://github.com/user-attachments/assets/32ceda53-efe5-4b81-97f8-f50e6f04af42" />
+
+Pero como lo sentia muy simple le agrege algunas figuras más 
+
+<img width="515" height="507" alt="image" src="https://github.com/user-attachments/assets/c9091674-fd3a-45ad-bead-31dc92be143a" />
+
+### Mi proceso 
+
+realice mi dibujo de 25 cuadrados x 25 cuadrados lo cual para transpasarlo a mi lienzo de 500 pixeles solo multiplique x 20 ya que 25 x 20 =500 
+
+Dado a esto empece con mi pieza principal, el triangulo colocandolo en la funcion draw 
+segun mi hoja las cordenadas de cada punto del triangulo era (17,3) eso lo multiplique x 20 y dio (260,60) asi con cada numero 
+el triangulo me costo un poco pero si vas ordenado en un sentido va a salir si o si 
+
+Uno de las cosas que me costo realizar a continuacion fue los rectangulos que estan alrededor del triangulo, los realice con el comando quad este tenia que fijarme todas las cordenadas y realizarlos en un sentido horario uno de estos rectangulos tenia que estar antes asi que en el codigo lo coloque arriba del triangulo quedando asi  
+
+<img width="264" height="130" alt="image" src="https://github.com/user-attachments/assets/a5ef6a54-a960-4776-89a5-b92723c598e0" />
 
 
 
