@@ -213,13 +213,6 @@ Numeradas
 ---
 ---
 
-#Encargo 
-
-
-
----
----
-
 # 🌸 Clase 27-03-2026  Introducción al pj5 🌸
 
   #### ¿Que es un algoritmo? 
@@ -300,10 +293,13 @@ Mi primera idea de composicion era esta :
 ![download](https://github.com/user-attachments/assets/3b9cda2d-fc35-4ae7-96c8-c7801d807c09)
 
 Desarollo : 
+
 Lo primero que realice fue cambiar el tamaño de lienzo a 500 x 500 px, despues cambie el fondo a blanco con medidas RGB (250,250,250) 
-para realizar mi traspaso de tradicional a pantalla lo que realice fue un calculo media cual era la cordenada de mi cuadrado de 25 x 25 cuadrados y lo multiplico x 20 
-es un calculo proporcional 
-ejemplo si un punto estaba en (2,5) eso se multiplica por 20 (2 x 20, 5 x 20 ) -> (40,100) en pantalla 
+para realizar mi traspaso de tradicional a pantalla lo que realice fue un calculo media cual era la cordenada de mi lienzo de 25 x 25 cuadrados y lo multiplico x 20 
+
+Es un calculo proporcional 
+
+Ejemplo si un punto estaba en (2,5) eso se multiplica por 20 (2 x 20, 5 x 20 ) -> (40,100) en pantalla 
 
 Asi fui colocando las primeras figuras como el triangulo, rectangulos,cuadrados, medio circulos, circulos, lineas y punto + el noStroke ( comando que me complico mas adelante con el punto y lineas)
 
@@ -313,6 +309,8 @@ Las cosas que mas me complicaron fueron
 - El medio circulo ya que al principio no me salia y era por que se me habia olvidado el angleMode(DEGREES); en la funcion setup 
 - El posicionamiento de las figuras cual va mas arriba o cual va a abajo
 - Lo ultimo que agrege los puntos y rayas ,  ya que al tener colocado el noStroke no se actualizaba solo se dibujaba una vez
+
+Algunas de las cosas tuve que investigar en la misma pagina [reference](https://p5js.org/es/reference/)
 
   
   
