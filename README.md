@@ -303,6 +303,8 @@ Pero como lo sentia muy simple le agrege algunas figuras más
 <img width="515" height="507" alt="image" src="https://github.com/user-attachments/assets/c9091674-fd3a-45ad-bead-31dc92be143a" />
 
 ### Mi proceso 
+<img width="376" height="377" alt="image" src="https://github.com/user-attachments/assets/95f3d6f2-66de-4d99-85cb-b2bffdaf803e" />
+
 
 realice mi dibujo de 25 cuadrados x 25 cuadrados lo cual para transpasarlo a mi lienzo de 500 pixeles solo multiplique x 20 ya que 25 x 20 =500 
 
