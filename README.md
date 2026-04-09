@@ -295,26 +295,30 @@ Mi primera idea de composicion era esta :
 
 ![entrega](https://github.com/user-attachments/assets/e827c599-51dd-4659-a2a0-6ec9a76eb53c)
 
-Este es terminado : 
-<img width="554" height="516" alt="image" src="https://github.com/user-attachments/assets/32ceda53-efe5-4b81-97f8-f50e6f04af42" />
-
-Pero como lo sentia muy simple le agrege algunas figuras más 
-
-<img width="515" height="507" alt="image" src="https://github.com/user-attachments/assets/c9091674-fd3a-45ad-bead-31dc92be143a" />
-
 ### Mi proceso 
-<img width="376" height="377" alt="image" src="https://github.com/user-attachments/assets/95f3d6f2-66de-4d99-85cb-b2bffdaf803e" />
+
+![download](https://github.com/user-attachments/assets/3b9cda2d-fc35-4ae7-96c8-c7801d807c09)
+
+Desarollo : 
+Lo primero que realice fue cambiar el tamaño de lienzo a 500 x 500 px, despues cambie el fondo a blanco con medidas RGB (250,250,250) 
+para realizar mi traspaso de tradicional a pantalla lo que realice fue un calculo media cual era la cordenada de mi cuadrado de 25 x 25 cuadrados y lo multiplico x 20 
+es un calculo proporcional 
+ejemplo si un punto estaba en (2,5) eso se multiplica por 20 (2 x 20, 5 x 20 ) -> (40,100) en pantalla 
+
+Asi fui colocando las primeras figuras como el triangulo, rectangulos,cuadrados, medio circulos, circulos, lineas y punto + el noStroke ( comando que me complico mas adelante con el punto y lineas)
+
+Las cosas que mas me complicaron fueron 
+
+- El medio circulo y el circulo ya que una de las medidas no es el radio si no que es el diametro en total
+- El medio circulo ya que al principio no me salia y era por que se me habia olvidado el angleMode(DEGREES); en la funcion setup 
+- El posicionamiento de las figuras cual va mas arriba o cual va a abajo
+- Lo ultimo que agrege los puntos y rayas ,  ya que al tener colocado el noStroke no se actualizaba solo se dibujaba una vez
+
+  
+  
 
 
-realice mi dibujo de 25 cuadrados x 25 cuadrados lo cual para transpasarlo a mi lienzo de 500 pixeles solo multiplique x 20 ya que 25 x 20 =500 
 
-Dado a esto empece con mi pieza principal, el triangulo colocandolo en la funcion draw 
-segun mi hoja las cordenadas de cada punto del triangulo era (17,3) eso lo multiplique x 20 y dio (260,60) asi con cada numero 
-el triangulo me costo un poco pero si vas ordenado en un sentido va a salir si o si 
-
-Uno de las cosas que me costo realizar a continuacion fue los rectangulos que estan alrededor del triangulo, los realice con el comando quad este tenia que fijarme todas las cordenadas y realizarlos en un sentido horario uno de estos rectangulos tenia que estar antes asi que en el codigo lo coloque arriba del triangulo quedando asi  
-
-<img width="264" height="130" alt="image" src="https://github.com/user-attachments/assets/a5ef6a54-a960-4776-89a5-b92723c598e0" />
 
 
 
