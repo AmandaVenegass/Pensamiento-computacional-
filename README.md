@@ -324,14 +324,18 @@ Las principales complicaciones que encontré fueron:
 - El posicionamiento de las figuras, es decir, cuál debía ir encima y cuál debajo.
 - Los puntos y las líneas, ya que al tener activado noStroke, no se actualizaban y solo se dibujaban una vez.
 - El cuadrado no se genera colocando todos los puntos si no que solo la cordenada de arriba, más el tamaño.
-- Y luchar con la pantalla de mi laptop ya que no tiene una buena calibracion de color lo cual al verlo en otras pantallas me di cuenta que se veia raro
+-  luchar con la pantalla de mi laptop ya que no tiene una buena calibracion de color lo cual al verlo en otras pantallas me di cuenta que se veia raro
+- y mi torpeza por que borre mi codigo en clase perooo tenia un respaldo antiguo, pero pude avanzar a partir de eso
 
 Algunas de las cosas tuve que investigar en la misma pagina [reference](https://p5js.org/es/reference/)
 
 ## Resultado 
 
-<img width="375" height="374" alt="image" src="https://github.com/user-attachments/assets/8c0b3db2-ad0f-4052-a508-a11dcdeff2a8" />
+<img width="374" height="375" alt="image" src="https://github.com/user-attachments/assets/caddf2f8-7f37-4e35-95e7-557402dae0a4" />
+
 ---
+
+
 
 
 
