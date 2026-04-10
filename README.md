@@ -38,7 +38,8 @@ TOTAL 70% presentación examen ->  Examen 30%
 
 ---
 ---
-# Historia breve de la computación 
+# 🌸 Clase 20/03 parte 1 - Historia breve de la computación 🌸
+ 
 
 ### **Primera fase abstracción**
 
@@ -149,7 +150,7 @@ Hay diferencia entre open source y Software Libre
 ---
 ---
 
-# 🌸 Clase 20-03-2026  Markdown 🌸
+# 🌸 Clase 20/03 parte 2 - Markdown 🌸
 
 - GitHub es una plataforma basada en la nube donde puedes almacenar, compartir y trabajar junto con otros usuarios para escribir código
 
@@ -288,40 +289,52 @@ Mi primera idea de composicion era esta :
 
 ![entrega](https://github.com/user-attachments/assets/e827c599-51dd-4659-a2a0-6ec9a76eb53c)
 
-### Mi proceso 
+Despues cambio a esto : 
 
-![download](https://github.com/user-attachments/assets/3b9cda2d-fc35-4ae7-96c8-c7801d807c09)
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/af5401bd-871a-4452-a78f-a174d7159a35" />
 
 Artista referente: 
 
 Mi inspiración principal fue Wassily Kandinsky pintor ruso y pionero del arte abstracto. Mi proceso no se basó en una obra específica, sino en una actividad inspirada en él vista en una imagen : lanzar dados y dibujar lo señalado. 
+
 También tuve como referencia visual la obra "Klinom krasnym bey belykh" (Golpea a los blancos con la cuña roja)
 
 <img width="227" height="277" alt="image" src="https://github.com/user-attachments/assets/46a08bba-4c48-4bae-8097-1fae00a850f6" />
 
+Desarollo en el P5JS: 
 
+Lo primero que realicé fue cambiar el tamaño del lienzo a 500 × 500 px. Luego, ajusté el fondo a color blanco con valores RGB (250, 250, 250) que despues cambie por un color mas neutro cafe
 
-Desarollo : 
+Para llevar mi diseño desde el formato tradicional a la pantalla, hice un cálculo para determinar la equivalencia de coordenadas. Mi lienzo original estaba dividido en una cuadrícula de 25 × 25, por lo que multipliqué cada coordenada por 20 para escalarla correctamente.
 
-Lo primero que realice fue cambiar el tamaño de lienzo a 500 x 500 px, despues cambie el fondo a blanco con medidas RGB (250,250,250) 
-para realizar mi traspaso de tradicional a pantalla lo que realice fue un calculo media cual era la cordenada de mi lienzo de 25 x 25 cuadrados y lo multiplico x 20 
+Este es un cálculo proporcional.
+Por ejemplo, si un punto estaba en (2, 5), lo multiplicaba por 20:
+(2 × 20, 5 × 20) → (40, 100) en pantalla.
 
-Es un calculo proporcional 
+De esta manera, fui ubicando las primeras figuras: triángulos, rectángulos, cuadrados, medios círculos, círculos, líneas y puntos. También utilicé el comando noStroke, que más adelante me generó algunas dificultades con los puntos y las líneas.
 
-Ejemplo si un punto estaba en (2,5) eso se multiplica por 20 (2 x 20, 5 x 20 ) -> (40,100) en pantalla 
+Las principales complicaciones que encontré fueron:
 
-Asi fui colocando las primeras figuras como el triangulo, rectangulos,cuadrados, medio circulos, circulos, lineas y punto + el noStroke ( comando que me complico mas adelante con el punto y lineas)
-
-Las cosas que mas me complicaron fueron 
-
-- El medio circulo y el circulo ya que una de las medidas no es el radio si no que es el diametro en total
-- El medio circulo ya que al principio no me salia y era por que se me habia olvidado el angleMode(DEGREES); en la funcion setup 
-- El posicionamiento de las figuras cual va mas arriba o cual va a abajo
-- Lo ultimo que agrege los puntos y rayas ,  ya que al tener colocado el noStroke no se actualizaba solo se dibujaba una vez
+- El medio círculo y el círculo, ya que una de las medidas corresponde al diámetro total y no al radio.
+- El medio círculo en particular, porque al inicio no se dibujaba correctamente, esto se debía a que había olvidado incluir angleMode(DEGREES); en la función setup.
+- El posicionamiento de las figuras, es decir, cuál debía ir encima y cuál debajo.
+- Los puntos y las líneas, ya que al tener activado noStroke, no se actualizaban y solo se dibujaban una vez.
+- El cuadrado no se genera colocando todos los puntos si no que solo la cordenada de arriba mas el tamaño.
+- el arco que debeia ser del mismo color del fondo.
+- Uno de mis mayores miedos en este trabajo era que quedara muy simple mi dibujo por eso a medida le empece agregar mÁs elementos.
+- Y luchar con la pantalla de mi laptop ya que no tiene una buena calibracion de color lo cual al verlo en otras pantallas me di cuenta que se veia mal :c 
 
 Algunas de las cosas tuve que investigar en la misma pagina [reference](https://p5js.org/es/reference/)
 
-  
+
+### Mi proceso 
+
+![progreso](https://github.com/user-attachments/assets/b57511c2-50b4-4123-9e9b-7410e8700681)
+
+## Resultado 
+
+<img width="375" height="374" alt="image" src="https://github.com/user-attachments/assets/8c0b3db2-ad0f-4052-a508-a11dcdeff2a8" />
+
   
 
 
