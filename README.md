@@ -295,7 +295,7 @@ Despues cambio a esto :
 
 Artista referente: 
 
-Mi inspiración principal fue Wassily Kandinsky pintor ruso y pionero del arte abstracto. Mi proceso no se basó en una obra específica, sino en una actividad inspirada en él vista en una imagen : lanzar dados y dibujar lo señalado. 
+Mi inspiración principal fue Wassily Kandinsky pintor ruso y pionero del arte abstracto. Mi proceso no se basó en una obra específica, sino en una actividad inspirada en él, vista en una imagen : lanzar dados y dibujar lo señalado. 
 
 También tuve como referencia visual la obra "Klinom krasnym bey belykh" (Golpea a los blancos con la cuña roja)
 
