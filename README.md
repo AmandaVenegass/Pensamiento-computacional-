@@ -313,23 +313,20 @@ Por ejemplo, si un punto estaba en (2, 5), lo multiplicaba por 20:
 
 De esta manera, fui ubicando las primeras figuras: triángulos, rectángulos, cuadrados, medios círculos, círculos, líneas y puntos. También utilicé el comando noStroke, que más adelante me generó algunas dificultades con los puntos y las líneas.
 
+### Mi proceso 
+
+![progreso](https://github.com/user-attachments/assets/b57511c2-50b4-4123-9e9b-7410e8700681)
+
 Las principales complicaciones que encontré fueron:
 
 - El medio círculo y el círculo, ya que una de las medidas corresponde al diámetro total y no al radio.
 - El medio círculo en particular, porque al inicio no se dibujaba correctamente, esto se debía a que había olvidado incluir angleMode(DEGREES); en la función setup.
 - El posicionamiento de las figuras, es decir, cuál debía ir encima y cuál debajo.
 - Los puntos y las líneas, ya que al tener activado noStroke, no se actualizaban y solo se dibujaban una vez.
-- El cuadrado no se genera colocando todos los puntos si no que solo la cordenada de arriba mas el tamaño.
-- el arco que debeia ser del mismo color del fondo.
-- Uno de mis mayores miedos en este trabajo era que quedara muy simple mi dibujo por eso a medida le empece agregar mÁs elementos.
-- Y luchar con la pantalla de mi laptop ya que no tiene una buena calibracion de color lo cual al verlo en otras pantallas me di cuenta que se veia mal :c 
+- El cuadrado no se genera colocando todos los puntos si no que solo la cordenada de arriba, más el tamaño.
+- Y luchar con la pantalla de mi laptop ya que no tiene una buena calibracion de color lo cual al verlo en otras pantallas me di cuenta que se veia raro
 
 Algunas de las cosas tuve que investigar en la misma pagina [reference](https://p5js.org/es/reference/)
-
-
-### Mi proceso 
-
-![progreso](https://github.com/user-attachments/assets/b57511c2-50b4-4123-9e9b-7410e8700681)
 
 ## Resultado 
 
