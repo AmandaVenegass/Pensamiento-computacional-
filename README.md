@@ -331,8 +331,7 @@ Algunas de las cosas tuve que investigar en la misma pagina [reference](https://
 ## Resultado 
 
 <img width="375" height="374" alt="image" src="https://github.com/user-attachments/assets/8c0b3db2-ad0f-4052-a508-a11dcdeff2a8" />
-
-  
+---
 
 
 
