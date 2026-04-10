@@ -1,0 +1,72 @@
+Como se me borro en clase mi codigo como respaldo lo colocare aqui  
+
+function setup() {
+  createCanvas(500, 500); // Crea un lienzo de 500x500 píxeles.
+  angleMode(DEGREES); // Configura el sistema de ángulos a grados (0-360)
+}
+
+function draw() {
+  background(219, 202, 195); // Establece el color de fondo (beige/crema)
+
+  noStroke(); // Desactiva los bordes de las figuras siguientes
+
+  fill(73, 166, 50); // Este comando sirve para rellenar la figura colocada abajo
+  quad(260, 60, 280, 50, 400, 100, 400, 120); // Dibuja un trapecio definiendo los puntos en sentido horario
+
+  fill(177, 151, 194);
+  triangle(380, 60, 40, 320, 200, 420); // Dibuja un triángulo morado
+
+  fill(73, 166, 50);
+  quad(340, 240, 320, 250, 260, 60, 280, 50); // Trapecio verde que cruza el triángulo
+
+  fill(245, 78, 78);
+  quad(120, 120, 120, 190, 260, 190, 260, 120); // Rectángulo rojo superior
+
+  fill(222, 53, 53);
+  quad(120, 190, 120, 260, 260, 260, 260, 190); // Rectángulo rojo inferior (tono más oscuro)
+
+  fill(181, 242, 102);
+  square(0, 0, 100); // Cuadrado verde en la esquina superior izquierda
+
+  fill(230, 158, 106);
+  arc(140, 160, 240, 240, 135, 315); // Dibuja un arco naranja inclinado; requiere angleMode(DEGREES) para usar grados
+
+  fill(170, 209, 167);
+  triangle(180, 120, 120, 120, 120, 180); // Triángulo verde menta
+
+  fill(0, 0, 0);
+  arc(440, 460, 300, 300, 180, 275); // Dibuja un arco negro
+
+  fill(219, 202, 195);
+  arc(440, 460, 295, 295, 180, 275); // Arco del color de fondo para simular un recorte
+
+  fill(135, 164, 224);
+  quad(60, 460, 360, 460, 360, 470, 60, 470); // Barra horizontal de color celeste
+
+  fill(245, 78, 78);
+  quad(460, 80, 460, 360, 450, 360, 450, 80); // Barra vertical roja
+
+  fill(36, 36, 36);
+  circle(420, 420, 160); // Genera un círculo gris oscuro
+
+  fill(219, 202, 195);
+  circle(420, 420, 145); // Círculo del color de fondo para crear un efecto de anillo
+
+  fill(135, 164, 224);
+  circle(420, 420, 80); // Círculo azul pequeño en el centro
+
+  fill(51, 95, 184);
+  square(280, 280, 60); // Cuadrado azul
+
+  fill(219, 202, 195);
+  arc(340, 340, 80, 80, 180, 270);// Arco del color de fondo que da la impresión de que falta una esquina del cuadrado
+
+  stroke(0); // Activa el contorno negro 
+  strokeWeight(7); // Grosor de la linea
+  point(400, 40); // Dibuja un punto
+  point(420, 20); // Dibuja otro punto
+
+  strokeWeight(2); // Grosor de la linea 
+  line(40, 340, 180, 430); // Línea diagonal
+  line(40, 360, 160, 440); // Línea diagonal paralela
+  line(60, 440, 100, 400); // Línea corta inclinada
