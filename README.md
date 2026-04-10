@@ -292,6 +292,15 @@ Mi primera idea de composicion era esta :
 
 ![download](https://github.com/user-attachments/assets/3b9cda2d-fc35-4ae7-96c8-c7801d807c09)
 
+Artista referente: 
+
+Mi inspiración principal fue Wassily Kandinsky pintor ruso y pionero del arte abstracto. Mi proceso no se basó en una obra específica, sino en una actividad inspirada en él vista en una imagen : lanzar dados y dibujar lo señalado. 
+También tuve como referencia visual la obra "Klinom krasnym bey belykh" (Golpea a los blancos con la cuña roja)
+
+<img width="227" height="277" alt="image" src="https://github.com/user-attachments/assets/46a08bba-4c48-4bae-8097-1fae00a850f6" />
+
+
+
 Desarollo : 
 
 Lo primero que realice fue cambiar el tamaño de lienzo a 500 x 500 px, despues cambie el fondo a blanco con medidas RGB (250,250,250) 
