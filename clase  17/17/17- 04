@@ -1,0 +1,33 @@
+#Transformaciones y condicionales 
+
+rotacion de figuras 
+La funcion *rotate()* sirve para rotar el sistema de cordenadas 
+
+rotare(angulo): ->  este angulo se puede trabajar de dos maneras en radianes o en algulos  
+
+O° son 0 radiales 
+90° seria PI/2
+180 son Pi radiales 
+360 son TWO_PI 
+
+TWO_PI 360 ̊
+PI 180 ̊
+HALF_PI 90 ̊
+QUARTER_PI 45 ̊
+
+entonces rotate() sirve para rotar elementos.
+SIEMPRE ROTA ALREDEDOR DEL PUNTO DE ORIGEN (0,0)
+Se recomienda usar con translate() y en algunos casos con rectMode(CENTER);
+
+translate () sirve para transladar el punto de origen (0,0) a otra cordenada de mi canvas 
+
+---
+
+push() and pop () Funciones que trabajan juntas como sistema de memoria temporal para el estilo y transformaciones del lienzo 
+sirve para que los cambios que hagas como mover o rotar no afecten a todo lo que dibujes después.
+
+---
+scale () función scale() ajusta la escala del sistema de coordenadas actual por el factor especificado.
+---
+
+
