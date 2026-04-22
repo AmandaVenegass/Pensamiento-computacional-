@@ -30,4 +30,78 @@ sirve para que los cambios que hagas como mover o rotar no afecten a todo lo que
 scale () función scale() ajusta la escala del sistema de coordenadas actual por el factor especificado.
 ---
 
+### condicionales 
+
+logica condicional 
+
+Expresion booleana  :  Una expresión booleana es cualquier enunciado,
+dato o instrucción que, al ser evaluado, solo puede arrojar uno de dos valores posibles:
+verdadero (True) o falso (False).  
+
+Es como hacer una afirmación y preguntarse: ¿esto es cierto o no?
+
+5 > 3 → verdadero
+10 == 7 → falso
+
+Para construir este tipo de expresiones se utilizan 3 tipos de elementos:
+
+### Operandos (o Valores): Son los datos básicos que se evalúan. Pueden ser:
+
+• Variables: (como x, y o mouseX, mouseY, etc).
+
+• Constantes o Literales: Valores fijos como 5, "Hola" o los mismos valores booleanos True y False.
+
+Operadores de Comparación:
+
+Permiten contrastar dos valores.
+
+• == (Igual a)
+• != (Diferente de)
+• > o < (Mayor o menor que)
+• >= o <= (Mayor o igual / Menor o igual)
+
+Operadores Lógicos: Sirven para combinar varias expresiones.
+
+• AND (&&): Es verdadero solo si ambas partes son verdaderas.
+
+• OR (||): Es verdadero si al menos una de las partes es verdadera.
+
+• NOT (!): Invierte el valor (si era verdadero, pasa a ser falso).
+
+(5 > 3) AND (2 < 4) → verdadero
+(10 == 5) OR (3 > 1) → verdadero
+NOT (7 < 2) → verdadero 
+
+
+###Sentencia condicional
+¿como puede un programa tomar diferentes caminos ? comparando valores 
+
+permite a un programa tomar decisiones "si se cumple esta condición, haz esto; si no, haz otra cosa”.
+
+If - else if - else 
+
+If -> if (condicion) {accion}
+
+edad = 18
+
+if (edad >= 18) {
+    imprimir("Eres mayor de edad")
+} else {
+    imprimir("Eres menor de edad")
+}
+
+### Variantes  else if 
+
+if (nota >= 6) {
+    imprimir("Aprobado")
+} else if (nota >= 4) {
+    imprimir("Recuperación")
+} else {
+    imprimir("Reprobado")
+}
+
+
+
+
+
 
