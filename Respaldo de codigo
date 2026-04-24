@@ -1,6 +1,6 @@
 Como se me borro en clase mi codigo como respaldo lo colocare aqui  
 
-function setup() {
+"""function setup() {
   createCanvas(500, 500); // Crea un lienzo de 500x500 píxeles.
   angleMode(DEGREES); // Configura el sistema de ángulos a grados (0-360)
 }
@@ -70,3 +70,4 @@ function draw() {
   line(40, 340, 180, 430); // Línea diagonal
   line(40, 360, 160, 440); // Línea diagonal paralela
   line(60, 440, 100, 400); // Línea corta inclinada
+"""
