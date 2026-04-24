@@ -289,7 +289,7 @@ Mi primera idea de composicion era esta :
 
 ![entrega](https://github.com/user-attachments/assets/e827c599-51dd-4659-a2a0-6ec9a76eb53c)
 
-Despues cambio a esto : 
+Despues cambio a esto :
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/af5401bd-871a-4452-a78f-a174d7159a35" />
 
@@ -334,11 +334,121 @@ Algunas de las cosas tuve que investigar en la misma pagina [reference](https://
 <img width="374" height="375" alt="image" src="https://github.com/user-attachments/assets/caddf2f8-7f37-4e35-95e7-557402dae0a4" />
 
 ---
+Clase 09/04 
 
 
 
 
 
+
+
+---
+Clase 16/04
+
+Esta clase estuvimos revisando Transformaciones y condicionales 
+
+La rotacion de figuras 
+
+La funcion *rotate()* sirve para rotar el sistema de cordenadas 
+
+rotare(angulo): ->  este angulo se puede trabajar de dos maneras en radianes o en algulos  
+
+O° son 0 radiales 
+90° seria PI/2
+180 son Pi radiales 
+360 son TWO_PI 
+
+TWO_PI 360 ̊
+PI 180 ̊
+HALF_PI 90 ̊
+QUARTER_PI 45 ̊
+
+entonces rotate() sirve para rotar elementos.
+SIEMPRE ROTA ALREDEDOR DEL PUNTO DE ORIGEN (0,0)
+Se recomienda usar con translate() y en algunos casos con rectMode(CENTER);
+
+translate () sirve para transladar el punto de origen (0,0) a otra cordenada de mi canvas 
+
+---
+
+push() and pop () Funciones que trabajan juntas como sistema de memoria temporal para el estilo y transformaciones del lienzo 
+sirve para que los cambios que hagas como mover o rotar no afecten a todo lo que dibujes después.
+
+---
+scale () función scale() ajusta la escala del sistema de coordenadas actual por el factor especificado.
+---
+
+### condicionales 
+
+Logica condicional 
+
+Expresion booleana  :  Una expresión booleana es cualquier enunciado,
+dato o instrucción que, al ser evaluado, solo puede arrojar uno de dos valores posibles:
+verdadero (True) o falso (False).  
+
+Es como hacer una afirmación y preguntarse: ¿esto es cierto o no?
+
+5 > 3 → verdadero
+10 == 7 → falso
+
+Para construir este tipo de expresiones se utilizan 3 tipos de elementos:
+
+### Operandos (o Valores): Son los datos básicos que se evalúan. Pueden ser:
+
+• Variables: (como x, y o mouseX, mouseY, etc).
+
+• Constantes o Literales: Valores fijos como 5, "Hola" o los mismos valores booleanos True y False.
+
+Operadores de Comparación:
+
+Permiten contrastar dos valores.
+
+• == (Igual a)
+• != (Diferente de)
+• > o < (Mayor o menor que)
+• >= o <= (Mayor o igual / Menor o igual)
+
+Operadores Lógicos: Sirven para combinar varias expresiones.
+
+• AND (&&): Es verdadero solo si ambas partes son verdaderas.
+
+• OR (||): Es verdadero si al menos una de las partes es verdadera.
+
+• NOT (!): Invierte el valor (si era verdadero, pasa a ser falso).
+
+(5 > 3) AND (2 < 4) → verdadero
+(10 == 5) OR (3 > 1) → verdadero
+NOT (7 < 2) → verdadero 
+
+###Sentencia condicional
+
+¿como puede un programa tomar diferentes caminos ? comparando valores 
+
+Permite a un programa tomar decisiones "si se cumple esta condición, haz esto; si no, haz otra cosa”.
+
+If - else if - else 
+
+If -> if (condicion) {accion}
+
+edad = 18
+
+if (edad >= 18) {
+    imprimir("Eres mayor de edad")
+} else {
+    imprimir("Eres menor de edad")
+}
+
+### Variantes  else if 
+
+if (nota >= 6) {
+    imprimir("Aprobado")
+} else if (nota >= 4) {
+    imprimir("Recuperación")
+} else {
+    imprimir("Reprobado")
+}
+--- 
+Tarea 
 
 
 
