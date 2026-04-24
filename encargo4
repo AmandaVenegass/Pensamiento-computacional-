@@ -1,0 +1,110 @@
+
+let botón = false; // Variable boolena para el boton
+let alien;
+let x = 0; // Variable para que el circulo se pueda transladar en X
+
+function preload() {
+  // Función para cargar la imagen
+  alien = loadImage("gato.png");
+}
+
+function setup() {
+  createCanvas(800, 800); // Crea un lienzo de 800 x 800 píxeles
+}
+
+function draw() {
+  background(12, 1, 15); // Pinta el fondo con un color oscuro
+
+  // Haz Luz
+
+  if (botón) {
+    fill(255, 247, 189, 200);
+  } else {
+    fill(12, 1, 15);
+  } // Si presiono el boton el haz de luz se pinta de amarillo y si esta apagado esta se llena de color del fondo
+
+  // Dibuja el haz de luz
+  quad(0, 0, 800, 0, 560, 608, 280, 608);
+
+  // Circulo que representa una estrella
+
+  let r = random(250); // Color random
+  let g = random(250); // Color random
+  let b = random(250); // Color random
+
+  fill(r, g, b); // realiza que el circulo tenga un color randon en todas las variables rgb
+
+  circle(x, 250, 15); //genera el circulo
+
+  x = x + 2; // hace que el circulo se translade de un extremo a otro
+
+  if (x > width) {
+    x = 0;
+  } // este reinicia la posición del objeto cuando se sale de la pantalla.
+
+  // Linterna
+  
+  noStroke(); // Elimina los bordes
+
+  // Parte inferior de la linterna en quad por que no me funcionaba con rect
+  fill(42, 49, 57);
+  quad(320, 760, 520, 760, 520, 800, 320, 800);
+
+  // Parte media de la linterna
+  fill(23, 37, 49);
+  quad(280, 640, 560, 640, 520, 760, 320, 760);
+
+  // Parte arriba de la linterna
+  fill(237, 245, 81);
+  rect(280, 600, 280, 40, 15);
+  rect(280, 610, 280, 33);
+
+  // Linea decorativa
+  fill(23, 37, 49);
+  rect(280, 615, 280, 5);
+
+  // BOTÓN
+
+  if (botón) {
+    fill(0, 250, 0);
+  } else {
+    fill(250, 250, 250);
+  } // si esta prendido, el boton es verde, si está apagado, es blanco
+
+  circle(420, 780, 40); // Dibuja el circulo que despues se convierte en el botón
+
+  // Texto ON // OFF
+
+  fill(0, 0, 0); // Color negro rgb
+  textSize(32); // Tamaño del texto
+  if (botón) {
+    text("ON", 400, 740);
+  } // Si presiono el boton cambia el texto a on y si no cambia el estado a  Off
+  else {
+    text("OFF", 400, 740);
+  }
+
+  // Imagen
+
+  if (botón) {
+    // Si presionas el botón aparece la imagen y esta rota en su propio eje
+    push(); // La funcion push y pop funcionan a la par, sirve para realizar transformaciones que solo afecten a un bloque de texto/comando/funciones y solo afecten a estas
+
+    translate(420, 300); // Mueve el origen al centro
+    scale(1.2); // Escala la imagen 1.2 veces , este es un valor no un x,y
+    rotate(frameCount * 0.02); // Rota continuamente
+    imageMode(CENTER); // Hace que la imagen se dibuje desde su centro
+    image(alien, 0, 0, 300, 300); // Carga la imagen en la cordenadas modificadas por translate
+
+    pop();
+  }
+}
+
+function mousePressed() {
+  // Sirve para calcular la distancia del mouse y el botón
+  let d = dist(mouseX, mouseY, 420, 780); // Si el clic esta dentro del radio de botón
+
+  if (d < 20) {
+    botón = !botón; // Sirve para el estado del botón (on o off)
+  }
+}
