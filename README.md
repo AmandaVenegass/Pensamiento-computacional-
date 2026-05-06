@@ -334,20 +334,96 @@ Algunas de las cosas tuve que investigar en la misma pagina [reference](https://
 <img width="374" height="375" alt="image" src="https://github.com/user-attachments/assets/caddf2f8-7f37-4e35-95e7-557402dae0a4" />
 
 ---
-Clase 09/04 
+# 🌸 Clase 10/04 - Datos dinámicos "Variables" 🌸
 
+#### ¿Que es una variable? 
 
+- Una variable es un nombre que se usa para guardar un valor que puede cambiar.
+Es como una caja donde puedes guardar datos (números, texto, etc.) y usarlos después.
 
+#### Variable MouseX y MouseY 
 
+- mouseX: sigue la posición horizontal del ratón.
+- mouseY: sigue la posición vertical del ratón.
 
+Si pongo background() en draw(), el fondo se borra todo el tiempo. Si lo pongo en setup(), solo se borra una vez.
 
+La función draw() por defecto se ejecuta aproximadamente a 60 fotogramas por segundo.
 
+mousePressed(): es una función que se ejecuta cuando se presiona el botón del mouse. 
+
+<img width="762" height="345" alt="image" src="https://github.com/user-attachments/assets/b8ebb5d4-b0fa-47c4-88d1-a907bf8ad92f" />
+<img width="762" height="390" alt="image" src="https://github.com/user-attachments/assets/2887e02b-d757-4860-979d-923da8f75130" />
+
+#### ¿Como hago mi propia variable? 
+
+Para declarar una variable podemos usar
+
+- **let** para variables dinámicas 
+- **const** para variables constantes
+
+  1. DECLARAR TU VARIABLE
+  2. INICIALIZA TU VARIABLE
+  3. USA TU VARIABLE
+
+#### incrementation operators aumentar el valor de una variable en 1 o más.
+Ejemplo:
+
+let x = 100; 
+draw 
+x= x +5  O  x += 5
+
+esto sirve para todas las operaciones matematicas 
+
+#### Javascript Objects
+
+sirven para guardar y organizar información en una sola estructura.
+Se forman con pares de clave y valor, como nombre y edad dentro de una persona.
+Permiten acceder y manejar información de forma más ordenada y fácil de usar.
+
+let persona = {
+  nombre: "Ana",
+  edad: 15,
+  ciudad: "Santiago"
+};
+
+#### random()fuction
+
+Su trabajo es devolver un número aleatorio dentro de un rango que tú definas.
+
+- random(): Si no pones nada, devuelve un número decimal entre 0 y 1
+- random(máximo): Devuelve un número decimal entre 0 y el máximo que elijas.
+- random(mínimo, máximo): Devuelve un número decimal entre esos dos valores.
+
+#### (width , height); Variables integradas en p5, que correspondena los valores definidos en el createCanvas.
+
+#### (windowWidth, windowHeight); Variables integradas en p5, que permiten ajustar el tamaño del lienzo al tamaño de la ventana delnavegador. Se usan en el createCanvas.
+
+#### map fuction 
+Esta función nos permite convertir un valor de un rango a otro.
+
+"map(valor, min_original, max_original, min_nuevo, max_nuevo)" 
 ---
-Clase 16/04
+Desafio 
 
-Esta clase estuvimos revisando Transformaciones y condicionales 
+1. Hacer un duplicado del dibujo que entregaron para la solemne.
+2.Darle movimiento al dibujo en p5.js.
+3.Usando cada una de las variables y funciones que aprendimos hoy;
 
-La rotacion de figuras 
+•mouseX mouseY
+•let creado por mi
+•Javascript object
+•Random fuction
+•Width height
+•WindowWidth WindowHeight
+•Map función
+
+Mi entrega : https://editor.p5js.org/amanda.venegas1/sketches/Wy4-n-Mfx
+---
+
+# 🌸 Clase 16/04 - Transformaciones y condicionales 🌸
+
+#### Rotacion de figuras 
 
 La funcion *rotate()* sirve para rotar el sistema de cordenadas 
 
@@ -367,15 +443,19 @@ entonces rotate() sirve para rotar elementos.
 SIEMPRE ROTA ALREDEDOR DEL PUNTO DE ORIGEN (0,0)
 Se recomienda usar con translate() y en algunos casos con rectMode(CENTER);
 
-translate () sirve para transladar el punto de origen (0,0) a otra cordenada de mi canvas 
+" translate()"  sirve para transladar el punto de origen (0,0) a otra cordenada de mi canvas 
 
----
 
-push() and pop () Funciones que trabajan juntas como sistema de memoria temporal para el estilo y transformaciones del lienzo 
+#### push() and pop ()
+
+Funciones que trabajan juntas como sistema de memoria temporal para el estilo y transformaciones del lienzo 
 sirve para que los cambios que hagas como mover o rotar no afecten a todo lo que dibujes después.
 
----
-scale () función scale() ajusta la escala del sistema de coordenadas actual por el factor especificado.
+
+#### scale () 
+función scale() ajusta la escala del sistema de coordenadas actual por el factor especificado.
+
+
 ---
 
 ### condicionales 
@@ -448,8 +528,32 @@ if (nota >= 6) {
     imprimir("Reprobado")
 }
 --- 
+
 Tarea 
 
+---
+
+#### Solemne 2 
+
+1. El Desafío
+   
+El objetivo de esta Solemne no es demostrar expertiz técnica en programación, sino demostrar capacidad de razonamiento
+lógico y sistémico. Deberán diseñar un "organismo visual" en p5.js que funcione mediante reglas preestablecidas para
+visibilizar una problemática de genero.
+Lo más importante es cómo traduces un problema social a una regla de comportamiento computacional.
+
+2. Marco Conceptual: Las 4 Columnas del PC
+   
+Su proyecto será evaluado bajo los cuatro pilares del pensamiento computacional:
+
+✴Descomposición: ¿Dividiste tu problemática en partes más pequeñas y manejables (funciones)?
+
+✴Reconocimiento de Patrones: ¿Usaste ciclos para crear estructuras o repeticiones con sentido (loops -for)?
+
+✴Abstracción: ¿Lograste que un movimiento o cambio visual represente un concepto real (ej. usar map para que el mouse
+represente "presión social")?
+
+✴Algoritmos: ¿Tu diagrama de flujo explica paso a paso cómo funciona tu sistema?
 
 
 
