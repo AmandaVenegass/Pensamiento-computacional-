@@ -573,7 +573,7 @@ Mi entrega : https://editor.p5js.org/amanda.venegas1/sketches/baVQi8Xlj
 
 ---
 ---
-Cuatro pilares 
+# Cuatro pilares 
 
 1. Descomposición
 2. Reconocimiento de patrones
@@ -606,7 +606,7 @@ Notas que todas son un círculo con una posición x distinta.
 - En el código: Se traduce en el uso de Bucles (for). Si hay un patrón, el código lo repite por
 ti con solo tres líneas.
 
-3.Anstracción 
+## 3.Anstracción 
 
 "Lo importante vs. el detalle"
 
@@ -632,22 +632,27 @@ pasa esto otro”.
 - En el código: Se traduce en el Diagrama de Flujo y en las Condicionales (if/else). Es el
 mapa lógico que conecta todas las partes anteriores.
 
+---
 # Tipos de interacción 
 
-1. Interacción Discreta (Eventos)
+### 1. Interacción Discreta (Eventos)
 
 Es cuando curre un evento específico (clic) y el sistema responde con una acción única (aparecen
 círculos). Es un interruptor de "encendido/apagado" o "acción/reacción".
 
 - En el código: Se suele usar dentro de la función mousePressed() o con un if(mouseIsPressed).
 
-2. Interacción Continua (Input de Datos)
+### 2. Interacción Continua (Input de Datos)
    
 Es cuando el sistema reacciona constantemente al movimiento o estado del usuario, sin necesidad
 de hacer algo especifico (clic).
 
 - En el código: Usar mouseX o mouseY directamente para afectar el tamaño, color o velocidad
 de algo.
+
+## Funciones propias 
+se divide en ** Modularidad** y **Reusabilidad**
+
 
 
 ---
