@@ -336,12 +336,12 @@ Algunas de las cosas tuve que investigar en la misma pagina [reference](https://
 ---
 # 🌸 Clase 10/04 - Datos dinámicos "Variables" 🌸
 
-#### ¿Que es una variable? 
+### ¿Que es una variable? 
 
 - Una variable es un nombre que se usa para guardar un valor que puede cambiar.
 Es como una caja donde puedes guardar datos (números, texto, etc.) y usarlos después.
 
-#### Variable MouseX y MouseY 
+### Variable MouseX y MouseY 
 
 - mouseX: sigue la posición horizontal del ratón.
 - mouseY: sigue la posición vertical del ratón.
@@ -355,7 +355,7 @@ mousePressed(): es una función que se ejecuta cuando se presiona el botón del 
 <img width="762" height="345" alt="image" src="https://github.com/user-attachments/assets/b8ebb5d4-b0fa-47c4-88d1-a907bf8ad92f" />
 <img width="762" height="390" alt="image" src="https://github.com/user-attachments/assets/2887e02b-d757-4860-979d-923da8f75130" />
 
-#### ¿Como hago mi propia variable? 
+### ¿Como hago mi propia variable? 
 
 Para declarar una variable podemos usar
 
@@ -366,7 +366,7 @@ Para declarar una variable podemos usar
   2. INICIALIZA TU VARIABLE
   3. USA TU VARIABLE
 
-#### incrementation operators aumentar el valor de una variable en 1 o más.
+### incrementation operators aumentar el valor de una variable en 1 o más.
 Ejemplo:
 
 let x = 100; 
@@ -375,7 +375,7 @@ x= x +5  O  x += 5
 
 esto sirve para todas las operaciones matematicas 
 
-#### Javascript Objects
+### Javascript Objects
 
 sirven para guardar y organizar información en una sola estructura.
 Se forman con pares de clave y valor, como nombre y edad dentro de una persona.
@@ -387,7 +387,7 @@ let persona = {
   ciudad: "Santiago"
 };
 
-#### random()fuction
+### random()fuction
 
 Su trabajo es devolver un número aleatorio dentro de un rango que tú definas.
 
@@ -395,11 +395,11 @@ Su trabajo es devolver un número aleatorio dentro de un rango que tú definas.
 - random(máximo): Devuelve un número decimal entre 0 y el máximo que elijas.
 - random(mínimo, máximo): Devuelve un número decimal entre esos dos valores.
 
-#### (width , height); Variables integradas en p5, que correspondena los valores definidos en el createCanvas.
+### (width , height); Variables integradas en p5, que correspondena los valores definidos en el createCanvas.
 
-#### (windowWidth, windowHeight); Variables integradas en p5, que permiten ajustar el tamaño del lienzo al tamaño de la ventana delnavegador. Se usan en el createCanvas.
+### (windowWidth, windowHeight); Variables integradas en p5, que permiten ajustar el tamaño del lienzo al tamaño de la ventana delnavegador. Se usan en el createCanvas.
 
-#### map fuction 
+### map fuction 
 Esta función nos permite convertir un valor de un rango a otro.
 
 "map(valor, min_original, max_original, min_nuevo, max_nuevo)" 
