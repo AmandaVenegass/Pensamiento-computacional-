@@ -369,23 +369,23 @@ Para declarar una variable podemos usar
 ### Incrementation operators aumentar el valor de una variable en 1 o más.
 Ejemplo:
 
-let x = 100; 
-draw 
-x= x +5  O  x += 5
+let x = 100;   
+draw   
+x= x +5  O  x += 5  
 
 esto sirve para todas las operaciones matematicas 
 
 ### Javascript Objects
 
-- Sirven para guardar y organizar información en una sola estructura.
-- Se forman con pares de clave y valor, como nombre y edad dentro de una persona.
-- Permiten acceder y manejar información de forma más ordenada y fácil de usar.
+- Sirven para guardar y organizar información en una sola estructura.  
+- Se forman con pares de clave y valor, como nombre y edad dentro de una persona.  
+- Permiten acceder y manejar información de forma más ordenada y fácil de usar.  
 
-let persona = {
-  nombre: "Ana",
-  edad: 15,
-  ciudad: "Santiago"
-};
+let persona = {   
+  nombre: "Ana",    
+  edad: 15,    
+  ciudad: "Santiago"    
+};    
 
 ### Random()fuction
 
@@ -431,25 +431,19 @@ La funcion *rotate()* sirve para rotar el sistema de cordenadas
 
 "rotare(angulo)": ->  este angulo se puede trabajar de dos maneras en radianes o en algulos  
 
-O° son 0 radiales 
+O° son 0 radiales   
+90° seria PI/2  
+180 son Pi radiales     
+360 son TWO_PI     
 
-90° seria PI/2
+TWO_PI 360 ̊  
+PI 180 ̊  
+HALF_PI 90 ̊  
+QUARTER_PI 45 ̊  
 
-180 son Pi radiales 
-
-360 son TWO_PI 
-
-TWO_PI 360 ̊
-
-PI 180 ̊
-
-HALF_PI 90 ̊
-
-QUARTER_PI 45 ̊
-
-Entonces rotate() sirve para rotar elementos.
-SIEMPRE ROTA ALREDEDOR DEL PUNTO DE ORIGEN (0,0)
-Se recomienda usar con translate() y en algunos casos con rectMode(CENTER);
+- Entonces **rotate()** sirve para rotar elementos.  
+- Siempre rota alrededor del punto de origen (0,0).
+- Se recomienda usar con **translate()** y en algunos casos con **rectMode(CENTER);**  
 
 ### translate()
 
@@ -469,12 +463,12 @@ Función scale() ajusta la escala del sistema de coordenadas actual por el facto
 
 Logica condicional 
 
-Expresion booleana:  
+### Expresion booleana:  
 Una expresión booleana es cualquier enunciado, dato o instrucción que, al ser evaluado, solo puede arrojar uno de dos valores posibles:
 
 Verdadero (True) o Falso (False).  
 
-"Es como hacer una afirmación y preguntarse: ¿esto es cierto o no?"
+*Es como hacer una afirmación y preguntarse: ¿esto es cierto o no?*
 
 5 > 3 → verdadero
 
@@ -483,40 +477,41 @@ Verdadero (True) o Falso (False).
 Para construir este tipo de expresiones se utilizan 3 tipos de elementos:
 
 ### Operandos (o Valores): 
+
 Son los datos básicos que se evalúan. Pueden ser:
 
 - Variables: (como x, y o mouseX, mouseY, etc).
 
 - Constantes o Literales: Valores fijos como 5, "Hola" o los mismos valores booleanos True y False.
 
-Operadores de Comparación:
+### Operadores de Comparación:
 
 Permiten contrastar dos valores.
 
-• == (Igual a)
-• != (Diferente de)
-• > o < (Mayor o menor que)
-• >= o <= (Mayor o igual / Menor o igual)
+== (Igual a)  
+!= (Diferente de)  
+> o < (Mayor o menor que)
+> >= o <= (Mayor o igual / Menor o igual)  
 
-Operadores Lógicos: Sirven para combinar varias expresiones.
+### Operadores Lógicos: 
 
-• AND (&&): Es verdadero solo si ambas partes son verdaderas.
+Sirven para combinar varias expresiones.
 
-• OR (||): Es verdadero si al menos una de las partes es verdadera.
+AND (&&): Es verdadero solo si ambas partes son verdaderas.  
+OR (||): Es verdadero si al menos una de las partes es verdadera.  
+NOT (!): Invierte el valor (si era verdadero, pasa a ser falso).  
 
-• NOT (!): Invierte el valor (si era verdadero, pasa a ser falso).
+(5 > 3) AND (2 < 4) → verdadero  
+(10 == 5) OR (3 > 1) → verdadero  
+NOT (7 < 2) → verdadero   
 
-(5 > 3) AND (2 < 4) → verdadero
-(10 == 5) OR (3 > 1) → verdadero
-NOT (7 < 2) → verdadero 
-
-###Sentencia condicional
+# Sentencia condicional
 
 ¿como puede un programa tomar diferentes caminos ? comparando valores 
 
 Permite a un programa tomar decisiones "si se cumple esta condición, haz esto; si no, haz otra cosa”.
 
-If - else if - else 
+## If - else if - else 
 
 If -> if (condicion) {accion}
 
