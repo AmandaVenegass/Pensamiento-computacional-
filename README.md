@@ -366,7 +366,7 @@ Para declarar una variable podemos usar
   2. INICIALIZA TU VARIABLE
   3. USA TU VARIABLE
 
-### incrementation operators aumentar el valor de una variable en 1 o más.
+### Incrementation operators aumentar el valor de una variable en 1 o más.
 Ejemplo:
 
 let x = 100; 
@@ -377,9 +377,9 @@ esto sirve para todas las operaciones matematicas
 
 ### Javascript Objects
 
-sirven para guardar y organizar información en una sola estructura.
-Se forman con pares de clave y valor, como nombre y edad dentro de una persona.
-Permiten acceder y manejar información de forma más ordenada y fácil de usar.
+- Sirven para guardar y organizar información en una sola estructura.
+- Se forman con pares de clave y valor, como nombre y edad dentro de una persona.
+- Permiten acceder y manejar información de forma más ordenada y fácil de usar.
 
 let persona = {
   nombre: "Ana",
@@ -387,7 +387,7 @@ let persona = {
   ciudad: "Santiago"
 };
 
-### random()fuction
+### Random()fuction
 
 Su trabajo es devolver un número aleatorio dentro de un rango que tú definas.
 
@@ -395,9 +395,11 @@ Su trabajo es devolver un número aleatorio dentro de un rango que tú definas.
 - random(máximo): Devuelve un número decimal entre 0 y el máximo que elijas.
 - random(mínimo, máximo): Devuelve un número decimal entre esos dos valores.
 
-### (width , height); Variables integradas en p5, que correspondena los valores definidos en el createCanvas.
+### (width , height); 
+Variables integradas en p5, que correspondena los valores definidos en el createCanvas.
 
-### (windowWidth, windowHeight); Variables integradas en p5, que permiten ajustar el tamaño del lienzo al tamaño de la ventana delnavegador. Se usan en el createCanvas.
+### (windowWidth, windowHeight);
+Variables integradas en p5, que permiten ajustar el tamaño del lienzo al tamaño de la ventana delnavegador. Se usan en el createCanvas.
 
 ### map fuction 
 Esta función nos permite convertir un valor de un rango a otro.
@@ -418,66 +420,74 @@ Desafio
 •WindowWidth WindowHeight
 •Map función
 
-Mi entrega : https://editor.p5js.org/amanda.venegas1/sketches/Wy4-n-Mfx
+Mi entrega : https://editor.p5js.org/amanda.venegas1/sketches/Wy4-n-Mfx 
 ---
 
 # 🌸 Clase 16/04 - Transformaciones y condicionales 🌸
 
-#### Rotacion de figuras 
+### Rotacion de figuras 
 
 La funcion *rotate()* sirve para rotar el sistema de cordenadas 
 
-rotare(angulo): ->  este angulo se puede trabajar de dos maneras en radianes o en algulos  
+"rotare(angulo)": ->  este angulo se puede trabajar de dos maneras en radianes o en algulos  
 
 O° son 0 radiales 
+
 90° seria PI/2
+
 180 son Pi radiales 
+
 360 son TWO_PI 
 
 TWO_PI 360 ̊
+
 PI 180 ̊
+
 HALF_PI 90 ̊
+
 QUARTER_PI 45 ̊
 
-entonces rotate() sirve para rotar elementos.
+Entonces rotate() sirve para rotar elementos.
 SIEMPRE ROTA ALREDEDOR DEL PUNTO DE ORIGEN (0,0)
 Se recomienda usar con translate() y en algunos casos con rectMode(CENTER);
 
-" translate()"  sirve para transladar el punto de origen (0,0) a otra cordenada de mi canvas 
+### translate()
 
+Sirve para transladar el punto de origen (0,0) a otra cordenada de mi canvas 
 
-#### push() and pop ()
+### push() and pop ()
 
-Funciones que trabajan juntas como sistema de memoria temporal para el estilo y transformaciones del lienzo 
-sirve para que los cambios que hagas como mover o rotar no afecten a todo lo que dibujes después.
+Funciones que trabajan juntas como sistema de memoria temporal para el estilo y transformaciones del lienzo sirve para que los cambios que hagas como mover o rotar no afecten a todo lo que dibujes después.
 
-
-#### scale () 
-función scale() ajusta la escala del sistema de coordenadas actual por el factor especificado.
+### scale () 
+Función scale() ajusta la escala del sistema de coordenadas actual por el factor especificado.
 
 
 ---
 
-### condicionales 
+## Condicionales 
 
 Logica condicional 
 
-Expresion booleana  :  Una expresión booleana es cualquier enunciado,
-dato o instrucción que, al ser evaluado, solo puede arrojar uno de dos valores posibles:
-verdadero (True) o falso (False).  
+Expresion booleana:  
+Una expresión booleana es cualquier enunciado, dato o instrucción que, al ser evaluado, solo puede arrojar uno de dos valores posibles:
 
-Es como hacer una afirmación y preguntarse: ¿esto es cierto o no?
+Verdadero (True) o Falso (False).  
+
+"Es como hacer una afirmación y preguntarse: ¿esto es cierto o no?"
 
 5 > 3 → verdadero
+
 10 == 7 → falso
 
 Para construir este tipo de expresiones se utilizan 3 tipos de elementos:
 
-### Operandos (o Valores): Son los datos básicos que se evalúan. Pueden ser:
+### Operandos (o Valores): 
+Son los datos básicos que se evalúan. Pueden ser:
 
-• Variables: (como x, y o mouseX, mouseY, etc).
+- Variables: (como x, y o mouseX, mouseY, etc).
 
-• Constantes o Literales: Valores fijos como 5, "Hola" o los mismos valores booleanos True y False.
+- Constantes o Literales: Valores fijos como 5, "Hola" o los mismos valores booleanos True y False.
 
 Operadores de Comparación:
 
