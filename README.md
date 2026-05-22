@@ -817,13 +817,13 @@ Universitat Oberta de Catalunya. (2023, 22 de marzo). Mansplaining, manspreading
 ### Codigo 
 
 ```javascript
-// estas son variables para guardar las imagenes 
+// Estas son variables para guardar las imagenes 
 let imagenFondo;
 let chicaI;
 let chicoI;
 let enojoI;
 
-// declare y agrupe variables 
+// Declare y agrupe variables 
 
 let chico = {  // Todas las variables del chico 
   
@@ -839,7 +839,7 @@ let chico = {  // Todas las variables del chico
 // Medida del lado del cuadrado azul 
   lado: 120,
 
-  //variables de la posición de las piernas derecha,izquierda y Tamaño 
+  // Variables de la posición de las piernas derecha,izquierda y Tamaño 
   piernaD: 570,
   piernaI: 480,
   tamPierna: 60
@@ -849,13 +849,13 @@ let chico = {  // Todas las variables del chico
 let chica = { // Variables de la chica 
   x: 180, // Posición de la imagen de la chica en x 
   y: 200, // Posición de la imagen de la chica em y 
-  circuloX: 310, // valor de x del circulo que es la cabeza 
+  circuloX: 310, // Valor de x del circulo que es la cabeza 
 };
 
-let click = 0; // cuenta cuantas veces el usuario hace clic 
-let rojo; // variable de color rojo despues usada en el map 
+let click = 0; // Cuenta cuantas veces el usuario hace clic 
+let rojo; // Variable de color rojo despues usada en el map 
 
-function preload() { // sirve para cargar imagenes antes que empiece el programa 
+function preload() { // Sirve para cargar imagenes antes que empiece el programa 
   imagenFondo = loadImage("metrofondo.jpg");
   chicaI = loadImage("chica.png");
   chicoI = loadImage("chico.png");
@@ -886,24 +886,19 @@ function backgroundS() {
 
   background(rojo, 0, 0); // Crea un fondo en rgb ( rojo, verde y green )
 
-  image(imagenFondo, 0, 0, width, height);  // carga la imagen de fondo en la posicion 0,0 oero con medidas del ancho y alto del lienzo 
+  image(imagenFondo, 0, 0, width, height);  // Carga la imagen de fondo en la posicion 0,0 oero con medidas del ancho y alto del lienzo 
 
-  fill(rojo, 0, 0, 150); // rellena el lienzo de un cuadrado rojo con cierta trasparencia 
-  rect(0, 0, width, height); // tamaño del cuadrado rojo que tambien mide a}el mismo ancho y alto del lienzo  
+  fill(rojo, 0, 0, 150); // Rellena el lienzo de un cuadrado rojo con cierta trasparencia 
+  rect(0, 0, width, height); // Tamaño del cuadrado rojo que tambien mide a}el mismo ancho y alto del lienzo  
 }
 
+function patron() { // Cree una funcion solo para el patron del fondo 
 
-
-function patron() { // cree una funcion solo para el patron del fondo 
-
-  
-
-  strokeWeight(3); // grosor del punto 
-  stroke(0); // color negro 
-
+  strokeWeight(3); // Grosor del punto 
+  stroke(0); // Color negro 
  
-  for (let x = 300; x < 750; x += 20) { // comienza a dibujar en  300 del eje X y avanza hasta 750, saltando de 20 en 20.
-    for (let y = 0; y < 300; y += 20) { // comienza a dibujar en  0 del eje Y y avanza hasta 300, saltando de 20 en 20.
+  for (let x = 300; x < 750; x += 20) { // Comienza a dibujar en  300 del eje X y avanza hasta 750, saltando de 20 en 20.
+    for (let y = 0; y < 300; y += 20) { // Comienza a dibujar en  0 del eje Y y avanza hasta 300, saltando de 20 en 20.
       point(x, y); // Dibuja un punto en esa coordenada.
     }
   }
@@ -913,7 +908,7 @@ function girl() { // Elementos de la chica
 
   noStroke(); // Quita el borde de las figuras.
 
-  image(chicaI, chica.x, chica.y); // coloca la imagen en los valores de x,y 
+  image(chicaI, chica.x, chica.y); // Coloca la imagen en los valores de x,y 
 
   
   // Si el usuario ha hecho exactamente 6 clics el circulo cambia random el color en rojo, verde y azul y si no hay 6 clics deja el color fijo en esos valores 
@@ -964,7 +959,7 @@ function titulo() {  // Esta función se encarga de dibujar el título
 
   text("¿Como ocupas el espacio?", 250, 60); // Dibuja el titulo (texto, posición X, posición Y)
 
-  fill(0); // rellena el color en valores rgb pero solo esta declarado en 0 que es negro
+  fill(0); // Rellena el color en valores rgb pero solo esta declarado en 0 que es negro
 
   quad(0, 0, 800, 0, 800, 20, 0, 20); // Dibuja un cuadrilátero en la parte superior de la pantalla en sentido horario 
   
@@ -979,8 +974,8 @@ function enojo() { // Elementos de la imagen enojo
     translate(300, 250); // Mueve el sistema de coordenadas a la posición (300, 250)
     rotate(frameCount * 0.05); // Rota la imagen continuamente con el tiempo, frameCount es un contador de cuadros
 
-    imageMode(CENTER); //Hace que la imagen se dibuje desde su centro.
-    image(enojoI, 0, 0, 70,70); // coloca la imagen en el lienzo en image(imagen, x, y, ancho, alto);
+    imageMode(CENTER); // Hace que la imagen se dibuje desde su centro.
+    image(enojoI, 0, 0, 70,70); // Coloca la imagen en el lienzo en image(imagen, x, y, ancho, alto);
      
      pop(); // Cierra la configuracion  para que no afecte a las siguientes partes del programa 
      
@@ -992,21 +987,21 @@ function mousePressed() { // // Esta función se ejecuta cada vez que el usuario
 
   if (click < 6) { // Si el usuario da menos de 6 clics ejecuta lo siguiente 
 
-    chico.ancho += 10; // aumenta el ancho de la imagen del chico 
-    chico.alto += 25; // aumenta el alto 
-    chico.lado += 15; // aumenta el tamaño del cuadrado del chico 
+    chico.ancho += 10; // Aumenta el ancho de la imagen del chico 
+    chico.alto += 25; // Aumenta el alto 
+    chico.lado += 15; // Aumenta el tamaño del cuadrado del chico 
 
     chico.piernaD += 15; // Mueve la pierna derecha hacia la derecha 
-    chico.piernaI -= 25; // mueve la pierna izquierda hacia la izquierda 
-    chico.tamPierna += 5; // aumenta sutilmente el tamaño de las piernas.
+    chico.piernaI -= 25; // Mueve la pierna izquierda hacia la izquierda 
+    chico.tamPierna += 5; // Aumenta sutilmente el tamaño de las piernas.
 
-    click++; //Suma 1 al contador de clics.
+    click++; // Suma 1 al contador de clics.
   }
 
-  if (click == 5) { // si el usuario dio 5 clicks realiza esto 
+  if (click == 5) { // Si el usuario dio 5 clicks realiza esto 
 
-    chica.x -= 50; // mueve a la chica a la izquierda 
-    chica.circuloX -= 50; // mueve también el circulo 
+    chica.x -= 50; // Mueve a la chica a la izquierda 
+    chica.circuloX -= 50; // Mueve también el circulo 
   }
 }
 ```
