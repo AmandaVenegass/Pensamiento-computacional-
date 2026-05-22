@@ -796,7 +796,11 @@ Lo que busco es mostrar situaciones cotidianas desde otra perspectiva, evidencia
 
 <img width="532" height="528" alt="image" src="https://github.com/user-attachments/assets/e04e34f1-184b-4c19-9324-59b54c3c2465" />
 
+---
+
 <img width="475" height="1183" alt="Sin título (1)" src="https://github.com/user-attachments/assets/a7bf3bb6-e238-4d05-b0e2-f0465eaa131d" />
+
+---
 
 ### Referentes
 
